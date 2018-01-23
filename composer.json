@@ -7,6 +7,7 @@
     "require": {
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-core": "1.1.x-dev",
+        "cwp/cwp-core": "2.x-dev",
         "silverstripe/auditor": "2.x-dev",
         "silverstripe/environmentcheck": "2.x-dev"
     },
