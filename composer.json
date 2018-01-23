@@ -14,7 +14,9 @@
         "phpunit/PHPUnit": "^5.7"
     },
     "extra": {
-        "project-files": [],
+        "project-files": [
+            "mysite/*"
+        ],
         "branch-alias": {
             "dev-master": "2.x-dev"
         }
