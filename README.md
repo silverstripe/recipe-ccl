@@ -4,6 +4,7 @@ Core functionality only recipe for a [CWP 2.0](https://www.cwp.govt.nz) installa
 SilverStripe and CWP modules:
 
  * [recipe-core](https://github.com/silverstripe/recipe-core): Recipe containing framework, config, assets
+ * [cwp-core](https://github.com/silverstripe/cwp-core): CWP basic compatibility module
  * [auditor](https://github.com/silverstripe/silverstripe-auditor): Provides audit trail logging for various events in
    the system
  * [environmentcheck](https://github.com/silverstripe/silverstripe-environmentcheck): Adds automated checks to monitor
