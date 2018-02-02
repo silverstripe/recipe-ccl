@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
+    <testsuite name="cwp-recipe-core">
+        <directory>vendor/silverstripe/auditor/tests</directory>
+        <directory>vendor/silverstripe/environmentcheck/tests</directory>
+        <directory>vendor/silverstripe/hybridsessions/tests</directory>
+        <directory>vendor/silverstripe/mimevalidator/tests</directory>
+    </testsuite>
+</phpunit>
