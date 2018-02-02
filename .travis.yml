@@ -11,6 +11,9 @@ php:
   - 7.2
 
 before_script:
+  - phpenv rehash
+  - phpenv config-rm xdebug.ini
+
   - composer validate
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
