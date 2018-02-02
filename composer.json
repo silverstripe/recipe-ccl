@@ -9,10 +9,12 @@
         "silverstripe/recipe-core": "1.1.x-dev",
         "cwp/cwp-core": "2.x-dev",
         "silverstripe/auditor": "2.x-dev",
-        "silverstripe/environmentcheck": "2.x-dev"
+        "silverstripe/environmentcheck": "2.x-dev",
+        "silverstripe/hybridsessions": "2.0.x-dev",
+        "silverstripe/mimevalidator": "2.x-dev"
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7"
+        "phpunit/phpunit": "^5.7"
     },
     "extra": {
         "project-files": [
