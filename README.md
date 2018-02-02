@@ -9,6 +9,9 @@ SilverStripe and CWP modules:
    the system
  * [environmentcheck](https://github.com/silverstripe/silverstripe-environmentcheck): Adds automated checks to monitor
    an environment's health status
+ * [hybridsessions](https://github.com/silverstripe/silverstripe-hybridsessions): Hybrid cookie/database session store for SilverStripe
+ * [mimevalidator](https://github.com/silverstripe/silverstripe-mimevalidator): Checks uploaded file content roughly
+   matches a known MIME type for the file extension
 
 This can be either added to an existing project or used as a project base for creating a
 basic CWP core-only install.
@@ -18,7 +21,7 @@ basic CWP core-only install.
 You can create a project using Composer:
 
 ```
-composer create-project cwp/cwp-recipe-core ./cwp2-core ^2@dev
+composer create-project cwp/cwp-recipe-core ./cwp2-core ^2
 ```
 
 ## More information
