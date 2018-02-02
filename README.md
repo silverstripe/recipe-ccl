@@ -1,5 +1,7 @@
 ## CWP Core Recipe
 
+[![Build Status](https://travis-ci.org/silverstripe/cwp-recipe-core.svg?branch=master)](https://travis-ci.org/silverstripe/cwp-recipe-core)
+
 Core functionality only recipe for a [CWP 2.0](https://www.cwp.govt.nz) installation. This includes the following core
 SilverStripe and CWP modules:
 
