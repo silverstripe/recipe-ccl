@@ -6,19 +6,19 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-core": "1.1.x-dev",
-        "cwp/cwp-core": "2.x-dev",
+        "silverstripe/recipe-core": "4.2.x-dev",
+        "cwp/cwp-core": "2.1.x-dev",
         "silverstripe/auditor": "2.1.x-dev",
-        "silverstripe/environmentcheck": "2.x-dev",
+        "silverstripe/environmentcheck": "2.0.x-dev",
         "silverstripe/hybridsessions": "2.0.x-dev",
-        "silverstripe/mimevalidator": "2.x-dev"
+        "silverstripe/mimevalidator": "2.0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
     },
     "extra": {
         "project-files": [
-            "mysite/*"
+            "app/*"
         ],
         "branch-alias": {
             "dev-master": "2.x-dev"
