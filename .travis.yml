@@ -18,7 +18,7 @@ before_script:
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   - composer global require silverstripe/cow ^2
-  - ~/.composer/vendor/bin/cow schema:validate
+  - ~/.config/composer/vendor/bin/cow schema:validate
 
 script:
   - vendor/bin/phpunit --testsuite cwp-recipe-core
