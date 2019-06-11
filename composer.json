@@ -9,7 +9,7 @@
         "silverstripe/recipe-core": "4.4.0@stable",
         "cwp/cwp-core": "2.3.0@stable",
         "silverstripe/auditor": "2.1.5@stable",
-        "silverstripe/environmentcheck": "2.1.0@stable",
+        "silverstripe/environmentcheck": "2.1.1@stable",
         "silverstripe/hybridsessions": "2.1.1@stable",
         "silverstripe/mimevalidator": "2.0.0@stable"
     },
