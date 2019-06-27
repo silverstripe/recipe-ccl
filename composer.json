@@ -6,8 +6,8 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-core": "4.4.x-dev",
-        "cwp/cwp-core": "2.3.x-dev",
+        "silverstripe/recipe-core": "4.5.x-dev",
+        "cwp/cwp-core": "2.4.x-dev",
         "silverstripe/auditor": "2.1.x-dev",
         "silverstripe/environmentcheck": "2.0.x-dev",
         "silverstripe/hybridsessions": "2.1.x-dev",
@@ -19,10 +19,7 @@
     "extra": {
         "project-files": [
             "app/*"
-        ],
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
+        ]
     },
     "config": {
         "process-timeout": 600
