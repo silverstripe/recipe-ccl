@@ -1,12 +1,15 @@
 language: php
 
+dist: trusty
+
 env:
   global:
-    - COMPOSER_ROOT_VERSION="2.4.x-dev" DB=MYSQL
+    - COMPOSER_ROOT_VERSION="2.5.x-dev" DB=MYSQL
 
 php:
   - 7.1
   - 7.2
+  - 7.3
 
 before_script:
   - phpenv rehash
