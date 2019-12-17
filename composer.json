@@ -6,8 +6,8 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-core": "4.5.0-rc1",
-        "cwp/cwp-core": "2.5.0-rc1",
+        "silverstripe/recipe-core": "4.5.0-rc2",
+        "cwp/cwp-core": "2.5.0-rc2",
         "silverstripe/auditor": "2.2.0@stable",
         "silverstripe/environmentcheck": "2.1.2@stable",
         "silverstripe/hybridsessions": "2.2.0@stable",
