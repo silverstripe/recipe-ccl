@@ -10,8 +10,7 @@
         "cwp/cwp-core": "2.x-dev",
         "silverstripe/auditor": "2.x-dev",
         "silverstripe/environmentcheck": "2.x-dev",
-        "silverstripe/hybridsessions": "2.x-dev",
-        "silverstripe/mimevalidator": "2.x-dev"
+        "silverstripe/hybridsessions": "2.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
