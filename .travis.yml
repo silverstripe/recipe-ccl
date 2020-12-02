@@ -1,34 +1,10 @@
-language: php
+version: ~> 1.0
 
-dist: xenial
-
-services:
-  - mysql
+import:
+  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=2.x-dev
-    - VERSIONED_VERSION=1.x-dev
-    - DB=MYSQL
-
-php:
-  - 7.1
-  - 7.2
-  - 7.3
-  - 7.4
-
-before_script:
-  - phpenv rehash
-  - phpenv config-rm xdebug.ini
-
-  - composer validate
-  - composer require --no-update silverstripe/versioned:$VERSIONED_VERSION
-  # Fix for running phpunit 5 on php 7.4+
-  - composer require --no-update sminnee/phpunit-mock-objects:^3
-  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
-
-  - composer global require silverstripe/cow:^2
-  - ~/.config/composer/vendor/bin/cow schema:validate
-
-script:
-  - vendor/bin/phpunit --testsuite cwp-recipe-core
+    - COMPOSER_ROOT_VERSION="2.7.x-dev"
+    - REQUIRE_EXTRA="silverstripe/versioned:1.7.x-dev"
+    - PHPUNIT_SUITE="cwp-recipe-core"
