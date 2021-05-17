@@ -6,11 +6,11 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-core": "4.x-dev",
-        "cwp/cwp-core": "2.x-dev",
-        "silverstripe/auditor": "2.x-dev",
-        "silverstripe/environmentcheck": "2.x-dev",
-        "silverstripe/hybridsessions": "2.x-dev"
+        "silverstripe/recipe-core": "4.8.0-rc1",
+        "cwp/cwp-core": "2.8.0-rc1",
+        "silverstripe/auditor": "2.3.0-rc1",
+        "silverstripe/environmentcheck": "2.3.0-rc1",
+        "silverstripe/hybridsessions": "2.2.1@stable"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
