@@ -5,6 +5,5 @@ import:
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION="2.x-dev"
-    - REQUIRE_EXTRA="silverstripe/versioned:1.x-dev"
+    - REQUIRE_EXTRA="silverstripe/versioned:1.8.x-dev"
     - PHPUNIT_SUITE="cwp-recipe-core"
