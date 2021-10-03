@@ -5,5 +5,5 @@ import:
 
 env:
   global:
-    - REQUIRE_EXTRA="silverstripe/versioned:1.9.x-dev"
+    - REQUIRE_EXTRA="silverstripe/versioned:1.x-dev"
     - PHPUNIT_SUITE="recipe-ccl"
