@@ -1,7 +1,7 @@
 {
-  "github-slug": "silverstripe/cwp-recipe-core",
+  "github-slug": "silverstripe/recipe-ccl",
   "child-stability-inherit": ["cwp/cwp-core"],
-  "dependency-constraint": "exact",
+  "dependency-constraint": "loose",
   "vendors": [
     "cwp",
     "silverstripe"

@@ -1,5 +1,5 @@
 <phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
-    <testsuite name="cwp-recipe-core">
+    <testsuite name="recipe-ccl">
         <directory>vendor/cwp/cwp-core/tests</directory>
         <directory>vendor/silverstripe/auditor/tests</directory>
         <directory>vendor/silverstripe/environmentcheck/tests</directory>
