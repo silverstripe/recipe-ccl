@@ -1,8 +1,8 @@
 {
-    "name": "cwp/cwp-recipe-core",
+    "name": "silverstripe/recipe-ccl",
     "type": "silverstripe-recipe",
-    "description": "CWP core requirements recipe",
-    "homepage": "https://www.cwp.govt.nz",
+    "description": "Silverstripe Cloud Platform CCL requirements recipe",
+    "homepage": "https://silverstripe.org",
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",

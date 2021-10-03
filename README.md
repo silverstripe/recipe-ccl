@@ -1,10 +1,11 @@
-## CWP Core Recipe
+## Silverstripe Recipe CCL
 
-[![Build Status](https://api.travis-ci.com/silverstripe/cwp-recipe-core.svg?branch=2)](https://travis-ci.com/silverstripe/cwp-recipe-core)
+[![Build Status](https://api.travis-ci.com/silverstripe/recipe-ccl.svg?branch=2)](https://travis-ci.com/silverstripe/recipe-ccl)
 [![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
-Core functionality only recipe for a [CWP 2.0](https://www.cwp.govt.nz) installation. This includes the following core
-SilverStripe and CWP modules:
+This recipe is meant to integrate a Silverstripe CMS project with the underlying infrastructure of Silverstripe Cloud Platform CCL. It's the successor of [`cwp/cwp-recipe-core`](https://github.com/silverstripe/cwp-recipe-core).
+
+This includes the following core Silverstripe CMS modules:
 
  * [recipe-core](https://github.com/silverstripe/recipe-core): Recipe containing framework, config, assets
  * [cwp-core](https://github.com/silverstripe/cwp-core): CWP basic compatibility module
@@ -17,14 +18,14 @@ SilverStripe and CWP modules:
    matches a known MIME type for the file extension
 
 This can be either added to an existing project or used as a project base for creating a
-basic CWP core-only install.
+basic Silverstripe CMS project.
 
 ## Get started
 
 You can create a project using Composer:
 
 ```
-composer create-project cwp/cwp-recipe-core ./cwp2-core ^2
+composer create-project silverstripe/recipe-ccl ./ccl-project ^2
 ```
 
 ## More information
