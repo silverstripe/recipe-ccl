@@ -8,14 +8,15 @@
         "php": "^7.4 || ^8.0",
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-core": "^4",
-        "cwp/cwp-core": "^2",
-        "silverstripe/auditor": "^2",
-        "silverstripe/environmentcheck": "^2",
-        "silverstripe/hybridsessions": "^2"
+        "cwp/cwp-core": "^2.9",
+        "silverstripe/auditor": "^2.4",
+        "silverstripe/environmentcheck": "^2.4",
+        "silverstripe/hybridsessions": "^2.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
-        "silverstripe/framework": "^4.10"
+        "silverstripe/framework": "^4.10",
+        "silverstripe/versioned": "^1"
     },
     "extra": {
         "project-files": [
