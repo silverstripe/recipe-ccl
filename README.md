@@ -1,7 +1,7 @@
 ## Silverstripe Recipe CCL
 
 [![CI](https://github.com/silverstripe/recipe-ccl/actions/workflows/ci.yml/badge.svg)](https://github.com/silverstripe/recipe-ccl/actions/workflows/ci.yml)
-[![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
+[![Silverstripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 This recipe is meant to integrate a Silverstripe CMS project with the underlying infrastructure of Silverstripe Cloud Platform [CCL (formerly Revera)](https://www.revera.co.nz/). It's the successor of [`cwp/cwp-recipe-core`](https://github.com/silverstripe/cwp-recipe-core).
 
@@ -31,4 +31,4 @@ composer create-project silverstripe/recipe-ccl ./ccl-project ^2
 ## More information
 
 See the [recipe plugin](https://github.com/silverstripe/recipe-plugin) page for instructions on how
-SilverStripe recipes work.
+Silverstripe recipes work.

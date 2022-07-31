@@ -1,9 +1,0 @@
-version: ~> 1.0
-
-import:
-  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
-
-env:
-  global:
-    - REQUIRE_EXTRA="silverstripe/versioned:^1"
-    - PHPUNIT_SUITE="recipe-ccl"
