@@ -7,11 +7,11 @@
     "require": {
         "php": "^8.1",
         "silverstripe/recipe-plugin": "^2",
-        "silverstripe/recipe-core": "5.x-dev",
-        "cwp/cwp-core": "3.0.x-dev",
-        "silverstripe/auditor": "3.0.x-dev",
-        "silverstripe/environmentcheck": "3.0.x-dev",
-        "silverstripe/hybridsessions": "3.0.x-dev"
+        "silverstripe/recipe-core": "~5.0.0@beta",
+        "cwp/cwp-core": "~3.0.0@beta",
+        "silverstripe/auditor": "~3.0.0@beta",
+        "silverstripe/environmentcheck": "~3.0.0@beta",
+        "silverstripe/hybridsessions": "~3.0.0@beta"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
