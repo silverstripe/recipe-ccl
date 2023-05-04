@@ -20,12 +20,10 @@ This includes the following core Silverstripe CMS modules:
 This can be either added to an existing project or used as a project base for creating a
 basic Silverstripe CMS project.
 
-## Get started
+## Installation
 
-You can create a project using Composer:
-
-```
-composer create-project silverstripe/recipe-ccl ./ccl-project ^2
+```sh
+composer create-project silverstripe/recipe-ccl ./ccl-project
 ```
 
 ## More information
