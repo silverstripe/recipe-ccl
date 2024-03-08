@@ -1,7 +1,6 @@
 ## Silverstripe Recipe CCL
 
 [![CI](https://github.com/silverstripe/recipe-ccl/actions/workflows/ci.yml/badge.svg)](https://github.com/silverstripe/recipe-ccl/actions/workflows/ci.yml)
-[![Silverstripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 This recipe is meant to integrate a Silverstripe CMS project with the underlying infrastructure of Silverstripe Cloud Platform [CCL (formerly Revera)](https://www.revera.co.nz/). It's the successor of [`cwp/cwp-recipe-core`](https://github.com/silverstripe/cwp-recipe-core).
 
@@ -19,6 +18,8 @@ This includes the following core Silverstripe CMS modules:
 
 This can be either added to an existing project or used as a project base for creating a
 basic Silverstripe CMS project.
+
+*Unlike other Silverstripe recipes, this recipe does not constrain Silverstripe core dependencies to a particular minor version line.*
 
 ## Installation
 
