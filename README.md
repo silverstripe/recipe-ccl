@@ -19,6 +19,8 @@ This includes the following core Silverstripe CMS modules:
 This can be either added to an existing project or used as a project base for creating a
 basic Silverstripe CMS project.
 
+*Unlike other Silverstripe recipes, this recipe does not constrain Silverstripe core dependencies to a particular minor version line.*
+
 ## Installation
 
 ```sh
